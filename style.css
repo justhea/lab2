@@ -1,8 +1,8 @@
 body {
+    background-color: #ffffff;
     background-image: url("https://media.tenor.com/jxeYaagGjocAAAAi/spongebob-fast.gif");
     background-repeat: no-repeat;
     background-position: right top;
-    background-attachment: scroll;
   }
   
   h1 {
