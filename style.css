@@ -19,7 +19,8 @@ body {
       text-align: center;
   }
   p.mix{
-      border-style: dotted dashed solid double;
+      border-style: solid;
+      border-width: thick;
   }
   *{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
