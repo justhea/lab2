@@ -24,3 +24,6 @@ body {
   .bg-color{
       background-color: hsl(148, 41%, 30%);
   }
+  div{
+      background: rgb(200,200,1);
+  }
