@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://media.tenor.com/jxeYaagGjocAAAAi/spongebob-fast.gif")
+    background-image: url("https://media.tenor.com/jxeYaagGjocAAAAi/spongebob-fast.gif");
+    background-repeat: no-repeat;
   }
   
   h1 {
