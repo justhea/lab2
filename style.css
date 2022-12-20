@@ -18,8 +18,8 @@ body {
       color: red;
       text-align: center;
   }
-  #para1{
-      font-size: 20;
+  p.mix{
+      border-style: dotted dashed solid double;
   }
   *{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -27,3 +27,4 @@ body {
   .bg-color{
       background-color: hsl(148, 41%, 30%);
   }
+  
