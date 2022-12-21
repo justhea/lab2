@@ -14,20 +14,7 @@ body {
       text-align: left;
   }
   /*This is a comment*/
-  p.ex1 {
-    border: 2px solid black;
-    outline-style: solid;
-    outline-color: red;
-  }
-  
-  p.ex2 {
-    border: 2px solid black;
-    outline-style: dotted;
-    outline-color: blue;
-  }
-  
-  p.ex3 {
-    border: 2px solid black;
-    outline-style: outset;
-    outline-color: grey;
-  }
+  p.ex1 {outline: dashed;}
+  p.ex2 {outline: dotted red;}
+  p.ex3 {outline: 5px solid yellow;}
+  p.ex4 {outline: thick ridge pink;}
