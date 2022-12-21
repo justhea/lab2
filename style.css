@@ -15,29 +15,19 @@ body {
   }
   /*This is a comment*/
   p.ex1 {
-    border: 1px solid black;
+    border: 2px solid black;
     outline-style: solid;
     outline-color: red;
-    outline-width: thin;
   }
   
   p.ex2 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: medium;
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
   }
   
   p.ex3 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: thick;
-  }
-  
-  p.ex4 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: 4px;
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
   }
