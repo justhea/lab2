@@ -14,20 +14,14 @@ body {
       text-align: left;
   }
   /*This is a comment*/
-  p {
-      color: red;
-      text-align: center;
-  }
-  p.mix{
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-  }
-  *{
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .bg-color{
-      background-color: hsl(148, 41%, 30%);
-  }
+  p {outline-color:red;}
+
+  p.dotted {outline-style: dotted;}
+  p.dashed {outline-style: dashed;}
+  p.solid {outline-style: solid;}
+  p.double {outline-style: double;}
+  p.groove {outline-style: groove;}
+  p.ridge {outline-style: ridge;}
+  p.inset {outline-style: inset;}
+  p.outset {outline-style: outset;}
   
