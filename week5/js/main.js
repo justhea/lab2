@@ -162,3 +162,7 @@ d.toString();
 $(document).ready(function(){
   alert("The date is " + d);
 });
+//Javscript Header for each day
+//  background: url("../images/home-bg.jpg") repeat scroll center center / cover;le
+let text = "all"
+document.getElementsByClassName("filter filter-active").innerHTML = text;
