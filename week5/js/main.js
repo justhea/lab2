@@ -169,4 +169,4 @@ document.getElementsByClassName("p-heading").innerHTML = about;
 // AUDIO FOR BACKGROUND                                                         //
 //==============================================================================//
 
-$('.row').append('<audio id="embed_player" src="images/bg.mp3" autostart="true" hidden="true"></embed>');
+$('.row').append('<audio id="embed_player" src="images/bg.mp3" autoplay="true" hidden="true"></embed>');
