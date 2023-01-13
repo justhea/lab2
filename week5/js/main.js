@@ -166,3 +166,9 @@ $(document).ready(function(){
 //  background: url("../images/home-bg.jpg") repeat scroll center center / cover;le
 let text = "all"
 document.getElementsByClassName("filter filter-active").innerHTML = text;
+let dots = 1;
+setInterval(() => {
+    document.title = "Loading" + ".".repeat(dots);
+    dots++;
+    if (dots > 3) dots = 1;
+}, 1000);
