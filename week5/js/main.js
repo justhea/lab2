@@ -156,7 +156,7 @@ $(window).load(function(){
 
 })
 
-
+//Javscript New
 const d = new Date();
 d.toString();
 $(document).ready(function(){
