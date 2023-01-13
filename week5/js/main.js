@@ -156,17 +156,9 @@ $(window).load(function(){
 
 })
 
-//1
+
 const d = new Date();
 d.toString();
 $(document).ready(function(){
   alert("The date is " + d);
 });
-//2
-let about = "Hi, I'm Carl! I am a Student with a passion for Programming. With 4 years of experience in Web Devlopment, I have developed a strong set of skills and expertise that I bring to every project I work on.";
-document.getElementsByClassName("p-heading").innerHTML = about;
-//==============================================================================//
-// AUDIO FOR BACKGROUND                                                         //
-//==============================================================================//
-
-$('.row').append('<audio id="embed_player" src="images/bg.mp3" autoplay="true" hidden="true"></embed>');
