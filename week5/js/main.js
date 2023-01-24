@@ -194,5 +194,19 @@ setInterval(() => {
   // Call the function every 5 seconds
   setInterval(displayRandomQuote, 5000);
 
+  function displayRandomImage() {
+    var images = [
+      "images/me.jpg",
+      "images/s.jpg",
+      "images/6.png",
+      "images/14.png"
+    ];
+
+    var image = images[Math.floor(Math.random() * images.length)];
+    document.getElementById("image-display").src = image;
+  }
+
+  // Call the function every 5 seconds
+  setInterval(displayRandomImage, 2000);
 
 
