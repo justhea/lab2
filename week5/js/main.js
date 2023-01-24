@@ -175,42 +175,24 @@ setInterval(() => {
 
 
 
-  function displayRandomQuote() {
-    var quotes = [
-      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-      "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
-      "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
-      "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
-      "If life were predictable it would cease to be life, and be without flavor."
-    ];
+function displayRandomQuote() {
+  var quotes = [
+    "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
+    "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
+    "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
+    "If life were predictable it would cease to be life, and be without flavor."
+  ];
 
-    var quotes = [
-      {
-        quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-        author: "Nelson Mandela"
-      },
-      {
-        quote: "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.",
-        author: "Steve Jobs"
-      },
-      {
-        quote: "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
-        author: "Oprah Winfrey"
-      },
-      {
-        quote: "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
-        author: "Steve Jobs"
-      },
-      {
-        quote: "If life were predictable it would cease to be life, and be without flavor.",
-        author: "Eleanor Roosevelt"
-      }
-    ];
-  
-    function displayRandomQuote() {
-      var quote = quotes[Math.floor(Math.random() * quotes.length)];
-      document.getElementById("quote-display").innerHTML = '<p>' + quote.quote + '</p> <p> - '+quote.author+'</p>';
-    }
+  // Get a random quote from the array
+  var quote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  // Display the quote
+  document.getElementById("quote-display").innerHTML = quote;
+}
+
+// Call the function every 5 seconds
+setInterval(displayRandomQuote, 5000);
 
   function displayRandomImage() {
     var images = [
