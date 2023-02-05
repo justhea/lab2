@@ -1,0 +1,99 @@
+html {
+  background: black;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.skull {
+  background: url(../images/rock.gif) center no-repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: 350px Auto;
+  z-index: 0;
+}
+
+.btn {
+  margin: 0 auto;
+  width: 170px;
+  height: 60px;
+  padding: 6px 0 0 3px;
+  border: 2px solid #e6e6e6;
+  border-radius: 2px;
+  background: none;
+  font-size: 16px;
+  line-height: 54px;
+  color: #fff;
+  letter-spacing: .25em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
+  cursor: pointer;z-index: 10000;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+}
+
+.btn:hover {
+  background: #e6e6e6;
+  color: #10151B;
+}
+
+.jump {
+  background-size: 800px Auto;
+}
+
+.overlay {
+  background: url(../images/rock1.gif) center no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  opacity: .1;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.can-hide {
+  opacity: .1;
+}
+
+.shake {
+  animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-12px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(13px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-20px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(20px, 0, 0);
+  }
+}
