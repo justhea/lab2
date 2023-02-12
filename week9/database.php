@@ -122,8 +122,8 @@ function test_input($data) {
       die("Connection failed: " . $conn->connect_error);
     }
     
-    $sql = "INSERT INTO cpbustamante_guestlist (firstname, email)
-    VALUES ('$name','$email')";
+    $sql = "INSERT INTO cpbustamante_guestlist (firstname, lastname, email)
+    VALUES ('$name','$email', '$website')";
 
     if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
